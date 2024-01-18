@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="Loginn" HorizontalAlignment="Left" Margin="334,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="289,145,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="269,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Авторизация" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="26" FontWeight="Bold" FontStyle="Oblique"/>
+        <Button FontSize="16" Content="Войти" HorizontalAlignment="Left" Margin="220,229,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="Button_Click"/>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="432,229,0,0" VerticalAlignment="Top" Height="49" Width="120" Click="Button_Click_1"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="269,171,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="itog" FontSize="16" HorizontalAlignment="Left" Margin="10,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="83" Width="182"/>
+        <PasswordBox Name="Passsword" PasswordChar="*" HorizontalAlignment="Left" Margin="334,175,0,0" VerticalAlignment="Top" Width="194"/>
+        <CheckBox x:Name="cb" Content="CheckBox" HorizontalAlignment="Left" Margin="334,205,0,0" VerticalAlignment="Top" Click="cb_Click"/>
+        <TextBox Name="passv" Visibility="Hidden" HorizontalAlignment="Left" Margin="334,175,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
